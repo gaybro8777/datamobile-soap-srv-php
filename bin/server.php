@@ -5,13 +5,17 @@ use Kily\DM\SOAP\Wsdl;
 use Kily\DM\SOAP\Tools;
 use Kily\DM\SOAP\Provider\Dummy as DummyProvider;
 
+if (file_exists($a = __DIR__.'/../../../autoload.php')) {
+        require_once $a;
+} else {
+        require_once __DIR__.'/../vendor/autoload.php';
+}
+
 if(php_sapi_name() == 'cli') {
     echo "Listening on http://0.0.0.0:8080\n";
     passthru('php -S 0.0.0.0:8080 '.__FILE__);
     exit;
 }
-
-require dirname(dirname(__FILE__)).'/vendor/autoload.php';
 
 $wsdl = new Wsdl($_SERVER['HTTP_HOST']);
 $wsdl_file = tempnam(sys_get_temp_dir(),'wsdl_');
