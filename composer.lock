@@ -1,0 +1,239 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c93b448667f21996a8b94957f280e098",
+    "content-hash": "066c4691ebf1311a48e67e31d89d4b85",
+    "packages": [
+        {
+            "name": "electrolinux/phpquery",
+            "version": "0.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/electrolinux/phpquery.git",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/electrolinux/phpquery/zipball/6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "didier Belot",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "time": "2013-03-21 12:39:33"
+        },
+        {
+            "name": "kevinlebrun/colors.php",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kevinlebrun/colors.php.git",
+                "reference": "b13d23b9365ece519abc0eaa77cd3061c5810d30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kevinlebrun/colors.php/zipball/b13d23b9365ece519abc0eaa77cd3061c5810d30",
+                "reference": "b13d23b9365ece519abc0eaa77cd3061c5810d30",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Colors": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Le Brun",
+                    "email": "lebrun.k@gmail.com",
+                    "homepage": "http://kevinlebrun.fr",
+                    "role": "developer"
+                }
+            ],
+            "description": "Colors for PHP CLI scripts",
+            "homepage": "https://github.com/kevinlebrun/colors.php",
+            "keywords": [
+                "cli",
+                "color",
+                "colors",
+                "console",
+                "shell"
+            ],
+            "time": "2012-03-25 18:18:10"
+        },
+        {
+            "name": "nategood/commando",
+            "version": "0.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/commando.git",
+                "reference": "f5833ee1daf83bbda7bf26ab2af478a9b14eecc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/commando/zipball/f5833ee1daf83bbda7bf26ab2af478a9b14eecc3",
+                "reference": "f5833ee1daf83bbda7bf26ab2af478a9b14eecc3",
+                "shasum": ""
+            },
+            "require": {
+                "kevinlebrun/colors.php": "0.2.*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Commando": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com"
+                }
+            ],
+            "description": "PHP CLI Commando Style",
+            "homepage": "http://github.com/nategood/commando",
+            "keywords": [
+                "automation",
+                "cli",
+                "command",
+                "command line",
+                "command line interface",
+                "scripting"
+            ],
+            "time": "2016-01-07 18:12:04"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "wa72/simplelogger",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasinger/simplelogger.git",
+                "reference": "4af160807cd3c939cbb64d410e53934c0df0737e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasinger/simplelogger/zipball/4af160807cd3c939cbb64d410e53934c0df0737e",
+                "reference": "4af160807cd3c939cbb64d410e53934c0df0737e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1",
+                "psr/log": "1.*"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "suggest": {
+                "symfony/console": "If you want to log to the Symfony console using Wa72ConsoleLogger"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Wa72\\SimpleLogger": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Singer",
+                    "email": "singer@webagentur72.de",
+                    "homepage": "http://www.webagentur72.de"
+                }
+            ],
+            "description": "Wa72SimpleLogger is a collection of very simple loggers implementing \\Psr\\Log\\LoggerInterface (PSR-3)",
+            "homepage": "http://github.com/wasinger/simplelogger",
+            "keywords": [
+                "log",
+                "logger",
+                "psr-3"
+            ],
+            "time": "2015-03-06 19:17:01"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
