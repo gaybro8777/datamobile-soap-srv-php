@@ -2,7 +2,11 @@
 
 use Kily\DM\SOAP\Wsdl;
 
-require dirname(dirname(__FILE__)).'/vendor/autoload.php';
+if (file_exists($a = __DIR__.'/../../../autoload.php')) {
+        require_once $a;
+} else {
+        require_once __DIR__.'/../vendor/autoload.php';
+}
 
 $cmd = new Commando\Command();
 $cmd->option()
